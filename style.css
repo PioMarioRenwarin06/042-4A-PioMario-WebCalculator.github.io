@@ -1,0 +1,58 @@
+  * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: whitesmoke;
+	height: 637px;
+	background-image: url(qkf3sj.jpg);
+	background-size: cover;
+  
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  top: 3em;
+  color: white;
+}
+
+.wrapper {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.calculator {
+  background-color: rgb(92, 99, 96);
+  padding: 10px;
+  border: 1px solid #eaeaea;
+}
+
+.textView {
+  width: 255px;
+  font-size: 27px;
+}
+
+.button {
+  width: 57px;
+  height: 45px;
+  margin: 2px;
+}
+
+.equal {
+  position: absolute;
+  height: 97px;
+}
+
+.dot {
+  position: absolute;
+  left: 142px;
+}
+
+.zero {
+  position: relative;
+  width: 122px;
+}
